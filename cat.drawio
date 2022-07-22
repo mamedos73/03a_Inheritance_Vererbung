@@ -131,12 +131,12 @@
         </mxGraphModel>
     </diagram>
     <diagram name="SuperCat" id="qkxWdVneJJbm4LwItR57">
-        <mxGraphModel dx="812" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="498" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="CbCa_wubd_6eMnargLlO-0"/>
                 <mxCell id="CbCa_wubd_6eMnargLlO-1" parent="CbCa_wubd_6eMnargLlO-0"/>
                 <mxCell id="CbCa_wubd_6eMnargLlO-2" value="Cat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="CbCa_wubd_6eMnargLlO-1">
-                    <mxGeometry x="120" y="440" width="200" height="86" as="geometry">
+                    <mxGeometry x="120" y="440" width="200" height="112" as="geometry">
                         <mxRectangle x="500" y="110" width="100" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -146,8 +146,11 @@
                 <mxCell id="CbCa_wubd_6eMnargLlO-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-2">
                     <mxGeometry y="52" width="200" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="CbCa_wubd_6eMnargLlO-10" value="- checkEscalationLevel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-2">
+                <mxCell id="CbCa_wubd_6eMnargLlO-10" value="+ getAge(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-2">
                     <mxGeometry y="60" width="200" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="CbCa_wubd_6eMnargLlO-27" value="- checkEscalationLevel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-2">
+                    <mxGeometry y="86" width="200" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="CbCa_wubd_6eMnargLlO-11" value="Tomcat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="CbCa_wubd_6eMnargLlO-1">
                     <mxGeometry x="520" y="440" width="200" height="60" as="geometry">
@@ -171,7 +174,7 @@
                 <mxCell id="CbCa_wubd_6eMnargLlO-20" value="- furColor: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-18">
                     <mxGeometry y="52" width="200" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="CbCa_wubd_6eMnargLlO-21" value="- age: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-18">
+                <mxCell id="CbCa_wubd_6eMnargLlO-21" value="# age: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-18">
                     <mxGeometry y="78" width="200" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="CbCa_wubd_6eMnargLlO-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="CbCa_wubd_6eMnargLlO-18">
